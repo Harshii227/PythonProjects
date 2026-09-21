@@ -16,7 +16,7 @@ score = 0
 question__num = 0
 
 for question in questions:
-    print("-------------------------")
+    print("---------------------------")
     print(question)
     for option in options[question_num]:
         print(option)

@@ -1,6 +1,6 @@
 import qrcode
 
-upi_id = input("ENter your UPI ID = ")
+upi_id = input("Enter your UPI ID = ")
 
 phone_url = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'
 paytm_url = f'upi://pay?pa={upi_id}&pn=Recipient%20Name&mc=1234'

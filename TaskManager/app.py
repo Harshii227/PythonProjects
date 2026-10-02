@@ -34,7 +34,7 @@ def task():
             print(f"Total tasks = {tasks}") 
             
         elif operation == 5:
-            print("closing the program...")  
+            print("closing the program....")  
             break         
                
         else:

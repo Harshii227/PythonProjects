@@ -1,4 +1,7 @@
-student_grade = { }
+student_grade = {
+    "MUSKAN": 90,
+    "NITIN": 80,
+ }
 
 def add_student(name, grade):
     student_grade[name] = grade
@@ -37,20 +40,20 @@ def main():
         print("4. Display All Students")
         print("5. Exit")
         
-        choice = input("Enter your choice =4 ")
+        choice = input("Enter your choice : ")
         
         if choice == '1':
-            name = input("Enter student name = nitin ")
-            grade = input("Enter student grade = A ")
+            name = input("Enter student name =  ")
+            grade = input("Enter student grade =  ")
             add_student(name, grade)
             
         elif choice == '2':
-            name = input("Enter student name to update = MUSKAN ")
-            grade = input("Enter new grade = A+")
+            name = input("Enter student name to update =  ")
+            grade = input("Enter new grade =  ")
             update_student(name, grade)
             
         elif choice == '3':
-            name = input("Enter student name to delete = nitin ")
+            name = input("Enter student name to delete =  ")
             delete_student(name)
             
         elif choice == '4':
